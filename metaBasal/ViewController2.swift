@@ -9,11 +9,20 @@
 import UIKit
 
 class ViewController2: UIViewController {
+    
+    var subject:Persona!
+    
+    
+    @IBOutlet weak var nombreLabel: UILabel!
+    
+    @IBOutlet weak var resultadoLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        resultadoLabel.text=subject.Nombre
+        
     }
 
     override func didReceiveMemoryWarning() {
