@@ -120,7 +120,7 @@
         <!--Title-->
         <scene sceneID="jUp-Lb-ROH">
             <objects>
-                <viewController id="pTl-pf-DM3" sceneMemberID="viewController">
+                <viewController id="pTl-pf-DM3" customClass="ViewController2" customModule="metaBasal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dWs-RZ-M9O"/>
                         <viewControllerLayoutGuide type="bottom" id="dae-ag-XwP"/>
@@ -140,8 +140,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tu Metabolismo basal es:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6L-H7-1t4">
-                                <rect key="frame" x="67" y="427" width="194" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tu metabolismo Basal es: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6L-H7-1t4">
+                                <rect key="frame" x="67" y="427" width="199" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
